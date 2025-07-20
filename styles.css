@@ -1,0 +1,142 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ 
+ .navbar{
+    padding: 20px;
+ }
+
+#listnav{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    
+
+
+}
+
+#listnav a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.navtag{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 35px;
+    background: #69ff66;
+background: linear-gradient(90deg, rgba(105, 255, 102, 1) 18%, rgba(9, 9, 121, 1) 39%, rgba(98, 214, 240, 1) 74%);
+color:white;
+text-shadow: 2px 2px 2px  black;
+
+}
+ footer{
+    display: flex;
+    margin: 15px;
+    padding: 5px;
+    background: #69ff66;
+background: linear-gradient(90deg, rgba(105, 255, 102, 1) 18%, rgba(9, 9, 121, 1) 39%, rgba(98, 214, 240, 1) 74%);
+justify-content: center;
+color: white;
+ }
+
+ .contentbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: aliceblue;
+    width: 50vw;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px 10px grey;
+ }
+
+ section{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    margin: 15px;
+    padding: 25px;
+    background-color: rgba(255, 228, 196, 0.525);
+    border-radius: 20px;
+
+ }
+
+ .contentbox img{
+    width: 100%;
+    height:100%;
+    box-shadow: 4px 4px 10px 3px black;
+    position: relative;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+   
+    
+ }
+
+ .contentbox ul{
+    font-size: 20px;
+ }
+
+ .leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .content{
+
+    display: flex;
+    justify-content: center;
+
+ }
+
+ body{
+   background: #add1de;
+background: linear-gradient(90deg, rgba(173, 209, 222, 1) 0%, rgba(204, 237, 218, 1) 50%, rgba(230, 225, 188, 1) 100%);
+ }
+
+ .rightbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 200px;
+    width: 200px;
+ }
+
+ .rightbox p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    background-color: rgba(152, 149, 149, 0.849);
+    padding-top: 40%;
+    padding-left: 35%;
+    opacity: 0;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    
+ }
+
+ .rightbox p:hover{
+    opacity: 1;
+    transform : scale(1.2);
+    
+ }
+
+ .rightbox:hover img{
+    transform: scale(1.2);
+ }
